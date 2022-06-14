@@ -1,0 +1,255 @@
+* {
+  margin: 0px;
+  padding:0px
+}
+
+body {
+  font-family: 'Avenir Next LT Pro', sans-serif;
+  max-width: 1280px;
+  margin: auto;
+}
+/* nav-bar*/
+#head-nav{
+  display: flex;
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  justify-content: space-between;
+ 
+}
+.logo{
+  height: 64px;
+  
+  padding-left: 24px;
+  display: inline-flex;
+  
+}
+.logo h1{
+  display:flex;
+  align-items: center;
+}
+.nav-side{
+  display: flex;
+  align-items: center;
+  
+}
+ul{
+  list-style-type:none;
+  margin: 0 6px;
+  padding: 0;
+  
+}
+ul li{
+  display: inline-flex;
+  margin-right: 16px;
+  font-size: 20px;
+  
+}
+h1{
+  text-align: center;
+  padding : auto 32px;
+}
+span{
+  color:black;
+  opacity:0.5 ;
+  font-weight: light;
+}
+
+/* banner-head*/
+
+#banner-container {
+
+  display: flex;
+  align-items: center;
+  padding: 32px 24px;
+  background-color: #d7d7d7;
+  margin-bottom: 32px;
+}
+
+#banner-container img {
+  width: 60%;
+}
+
+#banner-container #banner-text {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+#banner-container #banner-text h1 {
+  margin-top: 24px;
+  color: #4a4a4a;
+}
+
+#banner-container #banner-text p {
+  color: #4a4a4a;
+  margin-top: 24px;
+}
+
+#banner-container #banner-text button {
+  color: white;
+  background-color: #4a4a4a;
+  border: unset;
+  padding: 8px 0px;
+  margin-top: 24px;
+}
+/* information */
+#information {
+  display:flex;
+ 
+  align-items: center;
+  justify-content: space-around;
+ 
+  background-color: #d7d7d7;
+
+
+ 
+  
+}
+.informatiom-main{
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  
+}
+div .readbook{
+  padding: 0 0 ;
+  width: 100%;;
+  
+}
+.quote{
+  text-align: left;
+  padding-left: 24px;
+  padding-bottom: 32px;
+  
+}
+.quote h1{
+  padding-top:32px;
+  padding-bottom: 24px;
+}
+/**/
+.informatiom-side{
+   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+} 
+.information-side img{
+  display:block;
+  width: 35%;
+  heiht: 50%;
+  height:auto;
+  flex-basis: 100px;
+  
+}
+.q {
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: auto;
+  
+}
+.side-top{
+  display:flex;
+  justify-content: space-around;
+  
+}
+.side-mid{
+  display: flex;
+  justify-content: space-around;
+}
+.side-bot{
+  display: flex;
+  justify-content: space-around;
+}
+.button{
+  color:blue;
+  background-color: bisque;
+}
+
+/* startlearning*/
+#start-learning{
+  padding: 32px 72px;
+}
+.start{
+  text-align: center;
+  background-color: #d7d7d7;
+  padding: 32px 0px;
+  opacity: 0.7;
+}
+.start-learning{
+  display:flex;
+  background-color: #d7d7d7;
+  flex-wrap: wrap;
+  justify-content:center ;
+  padding: 0px 72px;
+}
+.software {
+  width:300px;
+  margin:32px;
+  background-color: white;
+}
+.software img {
+  width:100%;
+  padding:0;
+  margin:0px;
+}
+.start-learning h2{
+  padding-top: 16px;
+  padding-bottom: 8px;
+  
+}
+.start-learning  p{
+  padding:8px 8px;
+}
+/*bottom*/
+.bottom{
+  display:flex;
+
+}
+.bottom-head{
+  text-align: center;
+  margin: 32px auto;
+}
+.video-head{
+  max-width: 60%;
+  background-color: white;
+}
+
+.video-head video{
+  width:100%;
+  
+}
+.video-side{
+  width:40%;
+  display: flex;
+  flex-direction: column;
+}
+.video-side-top{
+  display: flex;
+}
+.video-side-bot{
+  display: flex;
+}
+
+/*footer*/
+footer{
+  display: flex;
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+.right-foot{
+  display:inline-flex;
+  margin-right: 30px;
+
+}
+.right-foot p{
+  padding: 16px;
+}
